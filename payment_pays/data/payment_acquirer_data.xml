@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pays_acquirer" model="payment.acquirer">
+            <field name="image_128" type="base64" file="payment_pays/static/description/icon.png"/>
+            <field name="name">Pays.cz</field>
+            <field name="provider">pays</field>
+            <field name="view_template_id" ref="pays_form"/>
+        </record>
+    </data>
+</odoo>
