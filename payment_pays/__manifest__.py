@@ -8,7 +8,6 @@
     "website" : "https://www.amevia.eu",
     'description': """Configuration of Czech gateway Pays""",
     'category': 'Payment Gateway: Pays Implementation',
-    "images":['static/description/logo.png'],
     'depends': ['payment'],
     'data': [
         'views/payment_pays_template.xml',
@@ -16,4 +15,7 @@
         'views/currency_views.xml',
         'data/payment_acquirer_data.xml',
     ],
+    'images': [
+        'static/description/logo.png',
+     ], 
 }
