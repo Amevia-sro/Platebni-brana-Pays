@@ -4,6 +4,7 @@
     'name': 'Pays Payment Gateway',
     'version': '1.0',
     'summary': 'Payment Gateway integration for Czech Republic',
+    'author': 'Amevia s.r.o.',
     'description': """""",
     'category': 'Payment Gateway: Pays Implementation',
     'depends': ['payment'],
