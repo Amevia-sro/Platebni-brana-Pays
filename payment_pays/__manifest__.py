@@ -5,7 +5,8 @@
     'version': '1.0',
     'summary': 'Payment Gateway integration for Czech Republic',
     'author': 'Amevia s.r.o.',
-    'description': """""",
+    "website" : "https://www.amevia.eu",
+    'description': """Configuration of Czech gateway Pays""",
     'category': 'Payment Gateway: Pays Implementation',
     'depends': ['payment'],
     'data': [
